@@ -69,7 +69,7 @@ class LineChartPainter extends CustomPainter {
   @override
   void paint(Canvas canvas, Size size) {
     final paint = Paint()
-      ..color = Colors.blue
+      ..color = Colors.yellow
       ..strokeWidth = 2;
 
     final path = Path();
